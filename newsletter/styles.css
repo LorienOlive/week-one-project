@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Roboto');
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+nav {
+ background: #FFFFFF;
+ height: 4vw;
+ box-shadow: 0 .25vw .3vw rgba(0, 0, 0, 0.3);
+}
+
+.nav-row {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 2vw 30vw 2vw 30vw;
+}
+
+.nav-item a {
+  font-family: "Roboto";
+  font-size: 1.5vw;
+  color: #2B2F26;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: #CD5D67;
+  transition: color 0.5s ease-in;
+}
+
+.nav-item .active {
+  color: #968772;
+  text-decoration: none;
+}
+
+a:active {
+  color: #968772;
+}
+
+.logo {
+  height: 4vw;
+  width: 3.5vw;
+  position: fixed;
+  top: 1vw;
+  left: 1vw;
+  z-index: 1;
+}
+
+.page-wrapper {
+  background: url("/Users/lorieno/Documents/Coding_Courses/week-one-project/images/background-2.jpg") no-repeat center;
+  background-size: cover;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 5vw;
+  left: 0;
+  z-index: -1;
+}
+
+.sign-up {
+  background: #FFFFFF;
+  margin: 6% 27% 20% 27%;
+}
+
+.sign-up-header {
+  font-family: "Lora";
+  font-size: 2.25vw;
+  font-weight: 200;
+  text-align: center;
+  padding-top: 3vw;
+}
+
+.sign-up-subheader {
+  font-family: "Lora";
+  font-size: 1.6vw;
+  text-align: center;
+  padding: 2vw 0 3vw 0;
+}
+
+ .name, .email {
+  font-family: "Roboto";
+  font-size: 1.5vw;
+  color: #968772;
+  padding-top: 1vw;
+  width: 89%;
+  border-bottom: solid 2px #968772;
+  margin: 0 2.5vw 1vw 2.5vw;
+}
+
+.name:focus {
+  border-bottom: solid 2px #967343;
+  transition: all 1s ease-in;
+}
+
+.email:focus {
+  border-bottom: solid 2px #967343;
+  transition: all 1s ease-in;
+}
+
+button {
+  font-family: "Roboto";
+  font-size: 1.5vw;
+  color: #F2F1E8;
+  background: #968772;
+  height: 4vw;
+  width: 9vw;
+  text-align: center;
+  margin: 3% 41% 5% 41%;
+}
+
+button:hover {
+  color: #FFFFFF;
+  background: #967343;
+}

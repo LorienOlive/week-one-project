@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Roboto');
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+nav {
+ background: #FFFFFF;
+ height: 6vw;
+ margin-top: 0;
+ box-shadow: 0 .25vw .3vw rgba(0, 0, 0, 0.07);
+}
+
+.nav-row {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 2vw 30vw 2vw 30vw;
+}
+
+.nav-item a {
+  font-family: "Roboto";
+  font-size: 1.5vw;
+  color: #2B2F26;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: #CD5D67;
+  transition: color 0.5s ease-in;
+}
+
+.nav-item .active {
+  color: #968772;
+  text-decoration: none;
+}
+
+a:active {
+  color: #968772;
+}
+
+.logo {
+  height: 4vw;
+  width: 3.5vw;
+  position: absolute;
+  top: 1vw;
+  left: 1vw;
+  z-index: 1;
+}
+
+body {
+  background: #F2F1E8
+}
+
+.body-top {
+  margin: 5% 22%;
+}
+
+.main-header {
+  font-family: "Lora";
+  font-size: 5vw;
+  text-align: center;
+}
+
+.thumbnail1 {
+  background: url("/Users/lorieno/Documents/Coding_Courses/week-one-project/images/birdhouse.jpg") center no-repeat;
+  background-size: cover;
+  height: 9vw;
+  width: 9vw;
+  display: inline;
+  float: left;
+  margin-right: 1.5vw;
+}
+
+.studio-txt {
+  font-family: "Lora";
+  font-size: 1.2vw;
+  font-weight: bold;
+  line-height: 2.5vw;
+  margin: 2vw 0 1.5vw 0;
+}
+
+blockquote {
+  border-left: solid 2px #968772;
+}
+
+.blockquote {
+  font-family: "Lora";
+  font-size: 1.2vw;
+  font-style: italic;
+  line-height: 2vw;
+  padding: .5vw 4vw 1.5vw 4vw;
+}
+
+.history-subheader {
+  font-family: "Lora";
+  font-size: 2vw;
+  padding: 2vw 0 1.25vw 0;
+}
+
+.history-txt {
+  font-family: "Lora";
+  font-size: 1.2vw;
+  font-weight: bold;
+  line-height: 2.5vw;
+}
+
+.wrapper {
+  background: url("/Users/lorieno/Documents/Coding_Courses/week-one-project/images/background-3.jpg") center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 25vw;
+}
+
+.wrapper-txt {
+  font-family: "Lora";
+  font-size: 6vw;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 8vw;
+}
+
+.facilities-subheader {
+  font-family: "Lora";
+  font-size: 2vw;
+  padding-bottom:1.25vw;
+}
+
+.body-bottom {
+  margin: 2% 22% 5% 22%;
+}
+
+.facilities {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.facilities-txt {
+  font-family: "Lora";
+  font-size: 1.2vw;
+  font-weight: bold;
+  line-height: 2.5vw;
+  width: 75%;
+  margin-bottom: 3vw;
+}
+
+.thumbnail2 {
+  background: url("/Users/lorieno/Documents/Coding_Courses/week-one-project/images/background-1.jpg") center no-repeat;
+  background-size: cover;
+  height: 7.5vw;
+  width: 10vw;
+  display: inline;
+  float: right;
+  margin: .5vw 1.5vw 1vw .5vw;
+}
+
+.caption {
+  font-family: "Lora";
+  font-size: 1vw;
+  line-height: 1.5vw;
+  margin-top: 8.5vw;
+}
+
+.table-subheader {
+  font-family: "Lora";
+  font-size: 2vw;
+  padding-bottom:1.25vw;
+}
+
+table {
+  font-family: "Lora";
+  font-size: 1.3vw;
+  border: solid 1px black;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: solid 1px black;
+}
+
+th {
+  padding: 1vw 3vw;
+}
+
+td {
+  padding: 1vw 1vw;
+}
+
+.color-row {
+  background: #f2eadc;
+}
+
+footer {
+  background: #2b2f26;
+  height: 5vw;
+}
+
+.footer-txt {
+  font-family: "Lora";
+  font-size: 1.2vw;
+  color: #FFFFFF;
+  padding-left: 2vw;
+  line-height: 5vw;
+}

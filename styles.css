@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Roboto');
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+nav {
+ background: #FFFFFF;
+ height: 4vw;
+ box-shadow: 0 .25vw .3vw rgba(0, 0, 0, 0.1);
+ position: relative;
+
+}
+
+.nav-row {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 2vw 30vw 2vw 30vw;
+}
+
+.nav-item a {
+  font-family: "Roboto";
+  font-size: 1.5vw;
+  color: #2B2F26;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: #CD5D67;
+  transition: color 0.5s ease-in;
+}
+
+.nav-item .active {
+  color: #968772;
+  text-decoration: none;
+}
+
+a:active {
+  color: #968772;
+}
+
+.logo {
+  height: 4vw;
+  width: 3.5vw;
+  position: fixed;
+  top: 1vw;
+  left: 1vw;
+  z-index: 2;
+}
+
+.page-header {
+  background: #F2F1E8;
+}
+
+.header-content {
+  font-family: "Lora";
+  text-align: center;
+}
+
+.main-heading {
+  font-size: 5vw;
+  padding-top: 5vw;
+}
+
+.sub-heading {
+  font-size: 3vw;
+  font-weight: 200;
+  padding-bottom: 5vw;
+}
+
+.gallery-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 2vw 0 2vw;
+  padding-bottom: 2vw;
+}
+
+.label1 {
+  font-family: "Lora";
+  font-size: 1.25vw;
+  background: #2b2f26;
+  color: #F2F1E8;
+  padding: .5vw 1vw;
+  position: relative;
+  top: 25vw;
+  z-index: 1;
+}
+
+.label2 {
+  font-family: "Lora";
+  font-size: 1.25vw;
+  background: #2b2f26;
+  color: #F2F1E8;
+  padding: .5vw 1vw;
+  position: relative;
+  top: 16vw;
+  z-index: 1;
+}
+
+#product-1 {
+  background: url("images/product-1.jpg") center no-repeat;
+  background-size: cover;
+  height: 30vw;
+  width: 53%;
+}
+
+#product-2 {
+  background: url("images/product-2.jpg") center no-repeat;
+  background-size: cover;
+  height: 30vw;
+  width: 15%;
+}
+
+#product-3 {
+  background: url("images/product-3.jpg") center no-repeat;
+  background-size: cover;
+  height: 30vw;
+  width: 28%;
+}
+
+#product-4 {
+  background: url("images/product-4.jpg") center no-repeat;
+  background-size: cover;
+  height: 20vw;
+  width: 23.5%;
+}
+
+#product-5 {
+  background: url("images/product-5.jpg") center no-repeat;
+  background-size: cover;
+  height: 20vw;
+  width: 23.5%;
+}
+
+#product-6 {
+  background: url("images/product-6.jpg") center no-repeat;
+  background-size: cover;
+  height: 20vw;
+  width: 23.5%;
+}
+
+#product-7 {
+  background: url("images/product-7.jpg") center no-repeat;
+  background-size: cover;
+  height: 20vw;
+  width: 23.5%;
+}
+
+footer {
+  background: #2b2f26;
+  height: 5vw;
+}
+
+.footer-txt {
+  font-family: "Lora";
+  font-size: 1.2vw;
+  color: #FFFFFF;
+  padding-left: 2vw;
+  line-height: 5vw;
+}
