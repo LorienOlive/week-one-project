@@ -126,4 +126,5 @@ button {
 button:hover {
   color: #FFFFFF;
   background: #967343;
+  transition: all .5s ease-in;
 }
